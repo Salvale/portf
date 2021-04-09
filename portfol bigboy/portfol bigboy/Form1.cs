@@ -148,6 +148,7 @@ namespace portfol_bigboy
         {
             //transition to level up screen
             button7.Visible = false;
+            //POST-SUBMISSION COMMENT: I should've explained this better before, but the player can only level up if they took damage during the fight. 
             if (Program.plejr[0].currenthealth != Program.plejr[0].maxhealth)
             {
                 button4.Enabled = true;
